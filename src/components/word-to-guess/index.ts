@@ -1,0 +1,1 @@
+export {WordToGuess} from "./word-to-guess"

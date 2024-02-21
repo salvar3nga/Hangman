@@ -1,0 +1,15 @@
+
+.word{
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+
+.word * {
+    border-bottom: 3px solid #646cff;
+    font-size: 1.75rem;
+    height: 50px;
+    width: 20px;
+    text-transform: uppercase;
+}

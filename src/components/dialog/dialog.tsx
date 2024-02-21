@@ -5,7 +5,7 @@ export function Dialog(){
         <div className={styles.popupContainer}>
             <div className={styles.popup}>
                 <h2>You have Won</h2>
-                <button> Play again</button>
+                <button className={styles.popupBtn}> Play again</button>
             </div>
         </div>
     )
