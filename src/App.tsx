@@ -1,13 +1,11 @@
-import './App.css'
-import { HangmanFigure } from './components/hangman-figure'
+
+import { GamePanel } from './components/game-panel'
 
 function App() {
 
   return (
     <>
-          <h1>Hangman</h1>
-          <p>Find the hidden word - Enter letter</p>
-          <HangmanFigure></HangmanFigure>
+          <GamePanel/>
     </>
   )
 }
