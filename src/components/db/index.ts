@@ -1,0 +1,1 @@
+export {WORDS_DB} from "./words"
