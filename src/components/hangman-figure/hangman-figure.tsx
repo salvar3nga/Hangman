@@ -18,7 +18,6 @@ export function HangmanFigure(){
                 <circle className={styles.figurePart} cx={140} cy={70} r={20}/>
                 
                 {/* Neck */}
-
                 <line className={styles.figurePart} x1={140} y1={90} x2={140} y2={150}/>
 
                 {/* Arms */}
