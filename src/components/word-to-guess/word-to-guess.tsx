@@ -1,13 +1,16 @@
-import styles from "./word-to-guess.module.css"
+import styles from "./word-to-guess.module.css";
 
-export function WordToGuess(){
-    return (
-        <div className={styles.word}>
-            <div>H</div>
-            <div>E</div>
-            <div>L</div>
-            <div>L</div>
-            <div>O</div>
-        </div>
-    )
+interface Props {
+  word: string[];
+  alreadyCorrect: string[];
+}
+
+export function WordToGuess({ word, alreadyCorrect }: Props) {
+  return (
+    <div className={styles.word}>
+      {word.map((w, idx) => {
+        return <div key={idx}>{alreadyCorrect.includes(w) && w}</div>;
+      })}
+    </div>
+  );
 }
